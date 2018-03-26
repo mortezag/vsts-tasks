@@ -67,7 +67,7 @@ async function run() {
         };
 
         // upload or copy
-        if (artifactType === "drop") {
+        if (artifactType === "container") {
             data["uploadservice"] = "drop";
 
             // add localpath to ##vso command's properties for back compat of old Xplat agent

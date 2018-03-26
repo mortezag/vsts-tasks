@@ -9,9 +9,10 @@
     "Build"
   ],
   "author": "Microsoft Corporation",
+  "preview": true,
   "version": {
-    "Major": 1,
-    "Minor": 131,
+    "Major": 2,
+    "Minor": 0,
     "Patch": 0
   },
   "demands": [],
@@ -44,7 +45,7 @@
       "required": true,
       "helpMarkDown": "ms-resource:loc.input.help.ArtifactType",
       "options": {
-        "Drop": "Visual Studio Team Services/TFS",
+        "Container": "Visual Studio Team Services/TFS",
         "FilePath": "A file share"
       }
     },

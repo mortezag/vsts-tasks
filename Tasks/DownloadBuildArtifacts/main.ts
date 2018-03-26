@@ -233,11 +233,10 @@ async function main(): Promise<void> {
                 }
                 else if (artifact.resource.type.toLowerCase() === "drop") {
                     let properties = {
-                        buildId: buildId,
                         artifacttype: artifact.resource.type,
                         artifactname: artifact.name,
-                        itemPattern: itemPattern,
-                        manifestId: artifact.resource.data
+                        itempattern: itemPattern,
+                        manifestid: artifact.resource.data
                     };
 
                     tl.command("artifact.download", properties, downloadPath);
